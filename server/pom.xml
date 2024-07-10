@@ -8,6 +8,11 @@
     <artifactId>server</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>heng-generator-mybatis</module>
+        <module>heng-provider-payment8001</module>
+        <module>heng-api-commons</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
