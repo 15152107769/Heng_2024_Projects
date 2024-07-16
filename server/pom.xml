@@ -11,12 +11,13 @@
     <modules>
         <module>heng-generator-mybatis</module>
         <module>heng-provider-payment8001</module>
-        <module>heng-api-commons</module>
+        <module>heng-commons-modules</module>
+        <module>heng-api-modules</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <hutool.version>5.8.22</hutool.version>
         <lombok.version>1.18.30</lombok.version>
@@ -43,7 +44,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
             <!-- springcloud 2023.0.0 -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -52,7 +52,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
             <!-- springcloud alibaba 2022.0.0.0-RC2 -->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
@@ -69,28 +68,24 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis.springboot.version}</version>
             </dependency>
-
             <!-- mysql 数据库驱动-->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
-
             <!-- springboot 集成 druid 连接池 -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
-
             <!-- 通用mapper4之tk.mybatis -->
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper</artifactId>
                 <version>${mapper.version}</version>
             </dependency>
-
             <!-- persistence-->
             <dependency>
                 <groupId>javax.persistence</groupId>
@@ -104,21 +99,18 @@
                 <artifactId>fastjson2</artifactId>
                 <version>${fastjson2.version}</version>
             </dependency>
-
             <!-- swagger3 地址:http://{IP}:5555/swagger-ui/index.html -->
             <dependency>
                 <groupId>org.springdoc</groupId>
                 <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
                 <version>${swagger3.version}</version>
             </dependency>
-
             <!-- hutool -->
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
             </dependency>
-
             <!-- lombok -->
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -126,7 +118,6 @@
                 <version>${lombok.version}</version>
                 <optional>true</optional>
             </dependency>
-
             <!-- spring-boot-starter-test-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -134,7 +125,6 @@
                 <version>${spring.boot.test.version}</version>
                 <scope>test</scope>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 </project>

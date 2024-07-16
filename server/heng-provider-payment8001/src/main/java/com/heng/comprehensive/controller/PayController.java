@@ -6,8 +6,8 @@ import com.heng.comprehensive.service.IPayService;
 import com.heng.comprehensive.utils.BeanCopyUtil;
 import com.heng.comprehensive.utils.Result;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
-import lombok.Value;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,11 +22,12 @@ import java.util.concurrent.TimeUnit;
  **/
 @RestController
 @RequestMapping("/")
+@Tag(name = "支付微服务模块", description = "支付CRUD")
 public class PayController {
     @Resource
     private IPayService payService;
 
-//    @Value("${server.port}")
+    //    @Value("${server.port}")
     private Integer port;
 
     @PostMapping("/add")
@@ -84,7 +85,7 @@ public class PayController {
     }
 
     @GetMapping("/getInfo/{info}")
-    public Result<String> getInfo(@PathVariable String info) {
+    public Result<String> getInfo(@PathVariable Integer info) {
         try {
             TimeUnit.SECONDS.sleep(62);
         } catch (InterruptedException e) {

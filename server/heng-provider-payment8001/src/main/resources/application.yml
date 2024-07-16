@@ -1,5 +1,5 @@
 server:
-  port: 8010
+  port: 8001
 
 spring:
   datasource:
@@ -16,7 +16,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: edu.wong.entities
+  type-aliases-package: com.heng.comprehensive.entities
   configuration:
     map-underscore-to-camel-case: true
 
