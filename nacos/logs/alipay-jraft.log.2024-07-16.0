@@ -1,0 +1,112 @@
+2024-07-16 22:24:41,427 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-07-16 22:24:41,478 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-07-16 22:24:41,586 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-07-16 22:24:41,594 INFO The number of active nodes increment to 1.
+
+2024-07-16 22:24:41,768 INFO Starts FSMCaller successfully.
+
+2024-07-16 22:24:41,774 WARN No data for snapshot reader E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2024-07-16 22:24:41,776 INFO Node <naming_persistent_service_v2/192.168.75.1:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.75.1:7848, oldConf=.
+
+2024-07-16 22:24:41,776 INFO Node <naming_persistent_service_v2/192.168.75.1:7848> start vote and grant vote self, term=0.
+
+2024-07-16 22:24:41,794 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-07-16 22:24:41,798 INFO Save raft meta, path=E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.75.1:7848, cost time=15 ms
+
+2024-07-16 22:24:41,798 INFO Node <naming_persistent_service_v2/192.168.75.1:7848> become leader of group, term=1, conf=192.168.75.1:7848, oldConf=.
+
+2024-07-16 22:24:41,798 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-07-16 22:24:41,798 WARN RPC server is not started in RaftGroupService.
+
+2024-07-16 22:24:41,798 INFO Start the RaftGroupService successfully.
+
+2024-07-16 22:24:41,814 INFO onLeaderStart: term=1.
+
+2024-07-16 22:24:41,814 INFO The number of active nodes increment to 2.
+
+2024-07-16 22:24:41,868 INFO Starts FSMCaller successfully.
+
+2024-07-16 22:24:41,870 WARN No data for snapshot reader E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2024-07-16 22:24:41,870 INFO Node <naming_instance_metadata/192.168.75.1:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.75.1:7848, oldConf=.
+
+2024-07-16 22:24:41,870 INFO Node <naming_instance_metadata/192.168.75.1:7848> start vote and grant vote self, term=0.
+
+2024-07-16 22:24:41,874 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-07-16 22:24:41,874 INFO Save raft meta, path=E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.75.1:7848, cost time=5 ms
+
+2024-07-16 22:24:41,874 INFO Node <naming_instance_metadata/192.168.75.1:7848> become leader of group, term=1, conf=192.168.75.1:7848, oldConf=.
+
+2024-07-16 22:24:41,874 WARN RPC server is not started in RaftGroupService.
+
+2024-07-16 22:24:41,874 INFO Start the RaftGroupService successfully.
+
+2024-07-16 22:24:41,878 INFO onLeaderStart: term=1.
+
+2024-07-16 22:24:41,878 INFO Creating new channel to: 192.168.75.1:7848.
+
+2024-07-16 22:24:41,886 INFO The number of active nodes increment to 3.
+
+2024-07-16 22:24:41,923 INFO The channel 192.168.75.1:7848 is in state: CONNECTING.
+
+2024-07-16 22:24:41,937 INFO Starts FSMCaller successfully.
+
+2024-07-16 22:24:41,937 WARN No data for snapshot reader E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2024-07-16 22:24:41,937 INFO Node <naming_service_metadata/192.168.75.1:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.75.1:7848, oldConf=.
+
+2024-07-16 22:24:41,937 INFO Node <naming_service_metadata/192.168.75.1:7848> start vote and grant vote self, term=0.
+
+2024-07-16 22:24:41,944 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-07-16 22:24:41,944 INFO Save raft meta, path=E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.75.1:7848, cost time=5 ms
+
+2024-07-16 22:24:41,944 INFO Node <naming_service_metadata/192.168.75.1:7848> become leader of group, term=1, conf=192.168.75.1:7848, oldConf=.
+
+2024-07-16 22:24:41,944 WARN RPC server is not started in RaftGroupService.
+
+2024-07-16 22:24:41,944 INFO Start the RaftGroupService successfully.
+
+2024-07-16 22:24:41,944 INFO onLeaderStart: term=1.
+
+2024-07-16 22:24:42,164 INFO The channel 192.168.75.1:7848 is in state: READY.
+
+2024-07-16 22:24:42,164 INFO The channel 192.168.75.1:7848 has successfully established.
+
+2024-07-16 22:42:10,591 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2024-07-16 22:42:10,591 INFO Deleting snapshot E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2024-07-16 22:42:10,591 INFO Renaming E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2024-07-16 22:42:10,594 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\snapshot on windows.
+
+2024-07-16 22:45:41,143 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2024-07-16 22:45:41,143 INFO Deleting snapshot E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_1.
+
+2024-07-16 22:45:41,143 INFO Renaming E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_1.
+
+2024-07-16 22:45:41,143 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot on windows.
+
+2024-07-16 22:47:42,453 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2024-07-16 22:47:42,453 INFO Deleting snapshot E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2024-07-16 22:47:42,453 INFO Renaming E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2024-07-16 22:47:42,459 WARN Unable to fsync directory E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\snapshot on windows.
+
+2024-07-16 23:12:10,519 INFO Truncated prefix logs in data path: E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_instance_metadata\log from log index 1 to 2, cost 0 ms.
+
+2024-07-16 23:15:41,136 INFO Truncated prefix logs in data path: E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 1 to 2, cost 1 ms.
+
+2024-07-16 23:17:42,463 INFO Truncated prefix logs in data path: E:\module\Heng_2024_Projects\nacos\data\protocol\raft\naming_service_metadata\log from log index 1 to 2, cost 0 ms.
+

@@ -1,0 +1,53 @@
+# 数据库连接ip地址
+database-ip: 127.0.0.1
+
+# redis连接ip地址
+redis-ip: 127.0.0.1
+
+# rabbitmq连接ip地址
+rabbitmq-ip: 127.0.0.1
+
+spring:
+    # redis通用配置
+    redis:
+        host: ${redis-ip}
+        post: 6379
+        password:
+    
+    # rabbitmq通用配置
+    rabbitmq:
+        host: ${rabbitmq-ip}
+        post: 5672
+        password: admin
+        username: 123456
+        virtual-host: /
+    
+    servlet:
+        multupart:
+            max-file-size: 1024MB
+            max-request-size: 1024MB
+# 日志等级
+logging:
+    level:
+        com.heng.comprehensive: info
+
+# 远程接口调用
+feign:
+    sentinel:
+        enable: true
+    okhttp:
+        enable: true
+    httpclient:
+        enable: false
+    client:
+        config:
+            default:
+                connectTimeout: 10000
+                readTimeout: 10000
+    compression:
+        request:
+            enable: false
+            min-request-size: 8192
+        response:
+            enable: false
+            

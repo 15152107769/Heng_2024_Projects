@@ -1,0 +1,16 @@
+2024-07-16 23:13:41,374 INFO [dump] add formal task. groupKey=application-common.yml+DEFAULT_GROUP+dev
+
+2024-07-16 23:13:41,410 INFO [dump] process formal task. groupKey=application-common.yml+DEFAULT_GROUP+dev
+
+2024-07-16 23:13:41,436 INFO [dump] md5 changed, save to disk cache ,groupKey=application-common.yml+DEFAULT_GROUP+dev, newMd5=c7eec4a77ac5e8dca539a1123d7de336,oldMd5=
+
+2024-07-16 23:13:41,436 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=application-common.yml+DEFAULT_GROUP+dev, newMd5=c7eec4a77ac5e8dca539a1123d7de336,oldMd5=,lastModifiedTs=1721142820000
+
+2024-07-16 23:18:31,693 INFO [dump] add formal task. groupKey=heng-gateway.yml+DEFAULT_GROUP+dev
+
+2024-07-16 23:18:31,744 INFO [dump] process formal task. groupKey=heng-gateway.yml+DEFAULT_GROUP+dev
+
+2024-07-16 23:18:31,744 INFO [dump] md5 changed, save to disk cache ,groupKey=heng-gateway.yml+DEFAULT_GROUP+dev, newMd5=8c276924bd481780e373c6bea3eff598,oldMd5=
+
+2024-07-16 23:18:31,744 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=heng-gateway.yml+DEFAULT_GROUP+dev, newMd5=8c276924bd481780e373c6bea3eff598,oldMd5=,lastModifiedTs=1721143112000
+

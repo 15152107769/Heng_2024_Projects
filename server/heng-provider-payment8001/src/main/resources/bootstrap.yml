@@ -1,12 +1,3 @@
 spring:
   application:
     name: heng-provider-payment8001
-  cloud:
-    consul:
-      host: localhost
-      port: 8500
-      discovery:
-        service-name: ${spring.application.name}
-      config:
-        profile-separator: '-'
-        format: yaml

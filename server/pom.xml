@@ -13,6 +13,7 @@
         <module>heng-provider-payment8001</module>
         <module>heng-commons-modules</module>
         <module>heng-api-modules</module>
+        <module>heng-provider-payment8002</module>
     </modules>
 
     <properties>
@@ -60,7 +61,18 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-config -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+                <version>${spring.cloud.alibaba.version}}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+                <version>${spring.cloud.alibaba.version}}</version>
+            </dependency>
             <!--     DAO        -->
             <!-- springboot 集成 mybatis -->
             <dependency>
